@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dr. Khalilur Rahman · Candidate for President of the UN General Assembly · 81st Session</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&family=Public+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --un-blue:        #009EDB;
+    --un-blue-deep:   #1F4E8C;
+    --un-blue-ink:    #0B2545;
+    --un-blue-soft:   #E8F2FA;
+    --un-blue-line:   #CFE3F2;
+    --un-gold:        #F5C518;
+    --un-gold-deep:   #C99A00;
+    --bd-green:       #006A4E;            /* Bangladesh flag green */
+    --bd-red:         #F42A41;            /* Bangladesh flag red */
+    --paper:          #FBFAF6;
+    --paper-warm:     #F4EFE2;
+    --ink:            #14213D;
+    --ink-soft:       #4A5675;
+    --rule:           #D9D2BE;
+    --shadow-soft:    0 1px 2px rgba(11,37,69,.06), 0 8px 24px rgba(11,37,69,.06);
+    --shadow-card:    0 1px 2px rgba(11,37,69,.08), 0 12px 36px rgba(11,37,69,.08);
+    --maxw:           1240px;
+    --serif:          "Newsreader", "Source Serif 4", Georgia, serif;
+    --sans:           "Public Sans", "Helvetica Neue", system-ui, sans-serif;
+  }
+  *,*::before,*::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: var(--sans); color: var(--ink); background: var(--paper); font-size: 16px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  img, svg { display: block; max-width: 100%; }
+  a { color: inherit; text-decoration: none; }
+  button { font: inherit; cursor: pointer; border: 0; background: none; color: inherit; }
+
+  /* Top utility */
+  .topstrip { background: var(--un-blue-ink); color: rgba(255,255,255,.85); font-size: 12.5px; letter-spacing: .02em; }
+  .topstrip .inner { max-width: var(--maxw); margin: 0 auto; padding: 9px 28px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+  .topstrip .org { display: flex; align-items: center; gap: 10px; }
+  .topstrip .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--un-gold); }
+  .topstrip .links { display: flex; gap: 22px; }
+  .topstrip .links a { opacity: .85; transition: opacity .15s; }
+  .topstrip .links a:hover { opacity: 1; color: #fff; }
+  .topstrip .lang { display: flex; gap: 14px; align-items: center; }
+  .topstrip .lang span { opacity: .55; }
+  .topstrip .lang .active { color: #fff; opacity: 1; font-weight: 600; }
+
+  /* Nav */
+  .nav { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.96); backdrop-filter: saturate(160%) blur(8px); border-bottom: 1px solid rgba(11,37,69,.08); transition: box-shadow .2s; }
+  .nav.scrolled { box-shadow: 0 6px 24px rgba(11,37,69,.06); }
+  .nav .inner { max-width: var(--maxw); margin: 0 auto; padding: 14px 28px; display: flex; align-items: center; gap: 32px; }
+  .brand { display: flex; align-items: center; gap: 14px; color: var(--un-blue-ink); }
+  .brand .emblem-mini { width: 38px; height: 38px; flex: none; }
+  .brand-text { line-height: 1.1; }
+  .brand-text .b1 { font-family: var(--serif); font-weight: 600; font-size: 16px; }
+  .brand-text .b2 { font-size: 10.5px; letter-spacing: .2em; text-transform: uppercase; color: var(--ink-soft); margin-top: 2px; }
+  .nav .links { display: flex; gap: 2px; margin-left: auto; align-items: center; }
+  .nav .links a { padding: 8px 12px; font-size: 13.5px; font-weight: 500; color: var(--un-blue-ink); border-radius: 4px; position: relative; transition: color .15s, background .15s; }
+  .nav .links a:hover { color: var(--un-blue); background: var(--un-blue-soft); }
+  .nav .links a.active { color: var(--un-blue); }
+  .nav .links a.active::after { content: ''; position: absolute; left: 12px; right: 12px; bottom: -16px; height: 2px; background: var(--un-blue); }
+  .nav .cta { margin-left: 12px; background: var(--un-blue-ink); color: #fff; padding: 10px 18px; border-radius: 2px; font-size: 13px; font-weight: 600; letter-spacing: .03em; display: inline-flex; align-items: center; gap: 8px; transition: background .15s, transform .15s; }
+  .nav .cta:hover { background: var(--un-blue); transform: translateY(-1px); }
+
+  /* Hero */
+  .hero { position: relative; background: radial-gradient(1200px 600px at 78% 18%, rgba(0,158,219,.32), transparent 60%), radial-gradient(900px 700px at 8% 90%, rgba(245,197,24,.10), transparent 55%), linear-gradient(180deg, #0B2545 0%, #143461 60%, #1F4E8C 100%); color: #fff; overflow: hidden; isolation: isolate; }
+  .hero::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,.06) 0 1px, transparent 1.5px); background-size: 26px 26px; opacity: .55; pointer-events: none; mask-image: radial-gradient(ellipse at 50% 40%, #000 40%, transparent 80%); }
+  .hero .inner { max-width: var(--maxw); margin: 0 auto; padding: 84px 28px 90px; display: grid; grid-template-columns: 1.25fr .9fr; gap: 64px; align-items: center; position: relative; z-index: 1; }
+  .eyebrow { display: inline-flex; align-items: center; gap: 12px; font-size: 12px; letter-spacing: .26em; text-transform: uppercase; color: var(--un-gold); font-weight: 600; }
+  .eyebrow::before { content: ''; width: 28px; height: 1px; background: var(--un-gold); }
+
+  .candidate-name {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(48px, 6.5vw, 92px);
+    line-height: 1; letter-spacing: -.018em;
+    margin: 22px 0 6px;
+    color: #fff;
+  }
+  .candidate-name .first { font-style: italic; color: #FFE08A; font-weight: 300; display: block; font-size: .58em; letter-spacing: .005em; }
+  .candidate-tag {
+    font-size: 14px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.7);
+    font-weight: 500;
+    margin: 20px 0 26px;
+    padding-left: 14px;
+    border-left: 2px solid var(--un-gold);
+  }
+  .candidate-tag strong { color: #fff; font-weight: 600; }
+  .hero .lede { font-size: 18px; line-height: 1.6; max-width: 580px; color: rgba(255,255,255,.85); margin: 0 0 32px; text-wrap: pretty; }
+  .hero-buttons { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 38px; }
+  .btn-primary, .btn-ghost { display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; font-size: 14px; font-weight: 600; letter-spacing: .04em; border-radius: 2px; transition: all .18s ease; }
+  .btn-primary { background: var(--un-gold); color: var(--un-blue-ink); }
+  .btn-primary:hover { background: #FFD63B; transform: translateY(-2px); box-shadow: 0 12px 28px rgba(245,197,24,.35); }
+  .btn-ghost { color: #fff; border: 1px solid rgba(255,255,255,.4); }
+  .btn-ghost:hover { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.7); }
+  .arrow { width: 16px; height: 16px; }
+
+  .hero .meta-row { display: flex; gap: 36px; flex-wrap: wrap; border-top: 1px solid rgba(255,255,255,.16); padding-top: 24px; margin-top: 4px; }
+  .meta-item { font-size: 13px; color: rgba(255,255,255,.7); }
+  .meta-item .k { letter-spacing: .18em; text-transform: uppercase; font-size: 10.5px; margin-bottom: 6px; }
+  .meta-item .v { font-family: var(--serif); font-size: 18px; color: #fff; font-weight: 500; }
+
+  /* Right column: portrait card + countdown */
+  .hero-right { display: flex; flex-direction: column; gap: 22px; }
+  .portrait-card {
+    position: relative;
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,255,255,.16);
+    overflow: hidden;
+  }
+  .portrait {
+    aspect-ratio: 4 / 5;
+    background-color: #0B2545;
+    background-image:
+      linear-gradient(180deg, rgba(11,37,69,0) 45%, rgba(11,37,69,.85) 100%),
+      url('assets/portrait.jpg');
+    background-size: cover, cover;
+    background-position: center top, center 22%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 22px;
+  }
+  .portrait-overlay {
+    position: relative; z-index: 2;
+    color: #fff;
+    width: 100%;
+  }
+  .portrait-overlay .badge {
+    display: inline-block;
+    background: var(--un-gold);
+    color: var(--un-blue-ink);
+    padding: 5px 10px;
+    font-size: 10.5px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .portrait-overlay .ptitle {
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.25;
+    color: #fff;
+  }
+  .portrait-overlay .psub { font-size: 12px; color: rgba(255,255,255,.7); margin-top: 4px; }
+  /* Tie hint */
+  .tie {
+    position: absolute;
+    left: 50%; bottom: 12%;
+    transform: translateX(-50%);
+    width: 9%;
+    height: 32%;
+    background: linear-gradient(180deg, var(--bd-red) 0%, #8E0E1A 100%);
+    clip-path: polygon(20% 0, 80% 0, 100% 12%, 70% 100%, 50% 95%, 30% 100%, 0% 12%);
+    z-index: 1;
+    box-shadow: 0 0 0 2px rgba(255,255,255,.1) inset;
+  }
+  .portrait-flag {
+    position: absolute; top: 18px; right: 18px;
+    width: 56px; aspect-ratio: 5/3;
+    background: var(--bd-green);
+    z-index: 3;
+    border: 1px solid rgba(255,255,255,.3);
+    box-shadow: 0 6px 16px rgba(0,0,0,.4);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .portrait-flag::before {
+    content: '';
+    width: 60%; aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--bd-red);
+    margin-left: -8%;
+  }
+
+  /* Countdown */
+  .countdown-card { width: 100%; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.16); padding: 20px 22px 22px; }
+  .countdown-label { font-size: 10.5px; letter-spacing: .26em; text-transform: uppercase; color: var(--un-gold); font-weight: 600; display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .countdown-label .live { display: inline-flex; align-items: center; gap: 6px; color: rgba(255,255,255,.7); font-weight: 500; }
+  .countdown-label .live .pulse { width: 7px; height: 7px; border-radius: 50%; background: #4ADE80; box-shadow: 0 0 0 0 rgba(74,222,128,.7); animation: pulse 1.6s infinite; }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(74,222,128,.6); } 70% { box-shadow: 0 0 0 10px rgba(74,222,128,0); } 100% { box-shadow: 0 0 0 0 rgba(74,222,128,0); } }
+  .countdown { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .cd-cell { text-align: center; padding: 12px 4px 10px; background: rgba(0,0,0,.18); border: 1px solid rgba(255,255,255,.08); }
+  .cd-num { font-family: var(--serif); font-weight: 500; font-size: 30px; line-height: 1; color: #fff; font-variant-numeric: tabular-nums; }
+  .cd-lbl { font-size: 9.5px; letter-spacing: .22em; text-transform: uppercase; color: rgba(255,255,255,.6); margin-top: 6px; }
+  .countdown-foot { margin-top: 14px; font-size: 12px; color: rgba(255,255,255,.7); display: flex; justify-content: space-between; align-items: center; }
+  .countdown-foot strong { color: #fff; font-weight: 600; }
+
+  .hero-ribbon { position: relative; z-index: 1; border-top: 1px solid rgba(255,255,255,.12); background: rgba(0,0,0,.18); }
+  .hero-ribbon .inner { max-width: var(--maxw); margin: 0 auto; padding: 18px 28px; display: flex; align-items: center; gap: 28px; font-size: 12.5px; color: rgba(255,255,255,.7); overflow: hidden; }
+  .hero-ribbon .label { color: var(--un-gold); letter-spacing: .22em; text-transform: uppercase; font-size: 10.5px; font-weight: 600; flex: none; }
+  .ticker { display: flex; gap: 36px; animation: marquee 60s linear infinite; white-space: nowrap; }
+  .ticker span::before { content: '◆'; color: var(--un-gold); margin-right: 12px; font-size: 10px; }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* Sections */
+  section { scroll-margin-top: 90px; }
+  .section { padding: 110px 28px; }
+  .section .container { max-width: var(--maxw); margin: 0 auto; }
+  .section-eyebrow { display: inline-flex; align-items: center; gap: 12px; font-size: 12px; letter-spacing: .26em; text-transform: uppercase; color: var(--un-blue); font-weight: 600; }
+  .section-eyebrow::before { content: ''; width: 28px; height: 1px; background: var(--un-blue); }
+  .section-title { font-family: var(--serif); font-weight: 400; font-size: clamp(34px, 4vw, 52px); line-height: 1.08; letter-spacing: -.01em; color: var(--un-blue-ink); margin: 18px 0 16px; text-wrap: balance; max-width: 22ch; }
+  .section-title .em { font-style: italic; color: var(--un-blue); }
+  .section-sub { font-size: 18px; color: var(--ink-soft); max-width: 64ch; margin: 0; text-wrap: pretty; }
+
+  /* About — biography */
+  #about { background: var(--paper); }
+  .about-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 80px; margin-top: 60px; align-items: start; }
+  .about-copy p { font-size: 17px; line-height: 1.7; color: #2A3753; margin: 0 0 18px; }
+  .about-copy p.intro { font-family: var(--serif); font-size: 22px; line-height: 1.5; color: var(--un-blue-ink); border-left: 3px solid var(--un-gold); padding-left: 22px; margin-bottom: 28px; }
+
+  .bio-stats {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    background: #fff;
+    border: 1px solid var(--rule);
+    margin-top: 28px;
+  }
+  .bio-stat { padding: 22px 22px 24px; border-right: 1px solid var(--rule); }
+  .bio-stat:last-child { border-right: 0; }
+  .bio-stat .num { font-family: var(--serif); font-size: 36px; line-height: 1; color: var(--un-blue-ink); font-weight: 500; }
+  .bio-stat .lbl { margin-top: 8px; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; }
+
+  .career-list { margin-top: 36px; }
+  .career-list h3 {
+    font-family: var(--serif); font-weight: 500;
+    font-size: 18px; color: var(--un-blue-ink);
+    margin: 0 0 14px;
+    padding-top: 22px; border-top: 1px solid var(--rule);
+  }
+  .career-row {
+    display: grid; grid-template-columns: 100px 1fr;
+    gap: 22px; padding: 12px 0;
+    border-bottom: 1px solid #EAE2D0;
+    font-size: 14px;
+  }
+  .career-row:last-child { border-bottom: 0; }
+  .career-row .yr { color: var(--un-gold-deep); font-weight: 600; letter-spacing: .04em; font-variant-numeric: tabular-nums; }
+  .career-row .role strong { color: var(--un-blue-ink); display: block; margin-bottom: 2px; }
+  .career-row .role span { color: var(--ink-soft); }
+
+  /* Quote card (right column) */
+  .quote-card {
+    position: sticky; top: 110px;
+    background: linear-gradient(180deg, #fff 0%, #FBF7E9 100%);
+    border: 1px solid var(--rule);
+    box-shadow: var(--shadow-soft);
+    padding: 0;
+    overflow: hidden;
+  }
+  .quote-card-head {
+    background: var(--un-blue-ink);
+    color: #fff;
+    padding: 20px 26px;
+    border-bottom: 3px solid var(--un-gold);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .quote-card-head .badge {
+    font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--un-gold); font-weight: 700;
+  }
+  .quote-card-head .seal {
+    width: 36px; height: 36px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--un-gold);
+    font-family: var(--serif);
+    font-size: 14px;
+  }
+  .quote-card-body { padding: 32px 30px 30px; }
+  .quote-card-body .mark {
+    font-family: var(--serif); font-size: 64px; line-height: .4;
+    color: var(--un-gold); font-style: italic;
+    display: block; margin-bottom: 4px;
+  }
+  .quote-card-body p {
+    font-family: var(--serif);
+    font-size: 22px;
+    line-height: 1.4;
+    color: var(--un-blue-ink);
+    margin: 0 0 22px;
+    text-wrap: pretty;
+  }
+  .quote-card-body .attr {
+    font-size: 12.5px; color: var(--ink-soft);
+    border-top: 1px solid var(--rule); padding-top: 14px;
+  }
+  .quote-card-body .attr strong { color: var(--un-blue-ink); display: block; margin-bottom: 2px; font-weight: 600; }
+  .quote-card-foot {
+    padding: 18px 30px 22px;
+    background: var(--paper-warm);
+    border-top: 1px solid var(--rule);
+    display: flex; gap: 22px; align-items: center;
+  }
+  .quote-card-foot .label { font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; flex: none; }
+  .quote-card-foot .langs { display: flex; gap: 8px; flex-wrap: wrap; }
+  .quote-card-foot .langs span {
+    font-size: 11px; letter-spacing: .12em;
+    color: var(--un-blue-ink);
+    border: 1px solid var(--rule);
+    padding: 3px 8px;
+    background: #fff;
+  }
+
+  /* Pillars: 6 pillars in 3-col x 2-row grid */
+  #pillars { background: linear-gradient(180deg, var(--paper) 0%, #F2EDDD 100%); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+  .pillars-head { display: grid; grid-template-columns: 1.1fr 1fr; gap: 80px; align-items: end; }
+  .pillars-head p { font-size: 17px; color: var(--ink-soft); }
+  .pillars-grid {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    background: #fff;
+    border: 1px solid var(--rule);
+    box-shadow: var(--shadow-soft);
+  }
+  .pillar {
+    padding: 38px 30px 32px;
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    position: relative;
+    transition: background .2s;
+    display: flex; flex-direction: column;
+  }
+  .pillar:nth-child(3n) { border-right: 0; }
+  .pillar:nth-last-child(-n+3) { border-bottom: 0; }
+  .pillar:hover { background: var(--un-blue-soft); }
+  .pillar:hover .pillar-icon { color: var(--un-blue); transform: translateY(-2px); }
+  .pillar-roman {
+    font-family: var(--serif); font-style: italic;
+    font-size: 22px;
+    color: var(--un-gold-deep);
+    font-weight: 500;
+    margin-bottom: 18px;
+    display: flex; align-items: baseline; gap: 12px;
+  }
+  .pillar-roman::after {
+    content: '';
+    flex: 1; height: 1px;
+    background: var(--rule);
+    align-self: center;
+  }
+  .pillar-icon { width: 52px; height: 52px; color: var(--un-blue-deep); margin-bottom: 18px; transition: color .2s, transform .2s; }
+  .pillar h3 { font-family: var(--serif); font-weight: 500; font-size: 23px; color: var(--un-blue-ink); line-height: 1.2; margin: 0 0 8px; }
+  .pillar .pillar-sub {
+    font-size: 11.5px; letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--un-blue);
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  .pillar p { margin: 0; font-size: 14px; color: var(--ink-soft); line-height: 1.6; }
+  .pillar-link { margin-top: 18px; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--un-blue); font-weight: 600; display: inline-flex; align-items: center; gap: 8px; }
+
+  /* Events */
+  #events { background: var(--paper); }
+  .events-head { display: flex; align-items: end; justify-content: space-between; gap: 40px; margin-bottom: 50px; flex-wrap: wrap; }
+  .tabs { display: flex; gap: 4px; border: 1px solid var(--rule); padding: 4px; background: #fff; }
+  .tab { padding: 9px 16px; font-size: 13px; font-weight: 500; color: var(--ink-soft); transition: all .15s; }
+  .tab.active { background: var(--un-blue-ink); color: #fff; }
+  .tab:not(.active):hover { color: var(--un-blue-ink); background: var(--un-blue-soft); }
+  .events-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .event { background: #fff; border: 1px solid var(--rule); overflow: hidden; display: flex; flex-direction: column; transition: transform .2s, box-shadow .2s; }
+  .event:hover { transform: translateY(-4px); box-shadow: var(--shadow-card); }
+  .event-date { background: var(--un-blue-ink); color: #fff; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid var(--un-gold); }
+  .event-date .d { font-family: var(--serif); font-size: 28px; line-height: 1; font-weight: 500; }
+  .event-date .my { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; opacity: .8; text-align: right; }
+  .event-date .my strong { display: block; font-size: 14px; letter-spacing: .14em; color: var(--un-gold); margin-bottom: 2px; }
+  .event-body { padding: 24px 24px 26px; flex: 1; display: flex; flex-direction: column; }
+  .event-tag { display: inline-block; font-size: 10.5px; letter-spacing: .2em; text-transform: uppercase; color: var(--un-blue); font-weight: 600; border: 1px solid var(--un-blue-line); padding: 4px 9px; margin-bottom: 14px; align-self: flex-start; background: var(--un-blue-soft); }
+  .event h4 { font-family: var(--serif); font-weight: 500; font-size: 21px; color: var(--un-blue-ink); line-height: 1.25; margin: 0 0 10px; }
+  .event-desc { font-size: 14px; color: var(--ink-soft); line-height: 1.55; flex: 1; margin: 0 0 18px; }
+  .event-meta { border-top: 1px solid var(--rule); padding-top: 14px; display: flex; justify-content: space-between; font-size: 12.5px; color: var(--ink-soft); }
+  .event-meta .loc { display: flex; align-items: center; gap: 6px; }
+
+  /* Media / News */
+  #media { background: var(--un-blue-ink); color: #fff; background-image: radial-gradient(800px 500px at 90% 0%, rgba(0,158,219,.25), transparent 60%); }
+  #media .section-eyebrow { color: var(--un-gold); }
+  #media .section-eyebrow::before { background: var(--un-gold); }
+  #media .section-title { color: #fff; }
+  #media .section-sub { color: rgba(255,255,255,.75); }
+  .news-grid { margin-top: 60px; display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 24px; }
+  .news { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.12); overflow: hidden; display: flex; flex-direction: column; transition: background .2s, border-color .2s; }
+  .news:hover { background: rgba(255,255,255,.07); border-color: rgba(255,255,255,.25); }
+  .news-img { aspect-ratio: 16 / 9; position: relative; overflow: hidden; }
+  .news-img-1 { background-image: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,.55) 100%), url('assets/with-guterres.jpg'); background-size: cover; background-position: center 30%; }
+  .news-img-2 { background-image: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,.55) 100%), url('assets/at-podium.jpg'); background-size: cover; background-position: center 25%; }
+  .news-img-3 { background-image: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,.55) 100%), url('assets/press.jpg'); background-size: cover; background-position: center 30%; }
+  .news-img::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgba(11,37,69,0) 55%, rgba(11,37,69,.4) 100%); }
+  .news.featured .news-img { aspect-ratio: 4 / 3; }
+  .news-meta-strip { position: absolute; left: 16px; bottom: 16px; display: flex; gap: 8px; align-items: center; z-index: 1; }
+  .news-cat { font-size: 10.5px; letter-spacing: .2em; text-transform: uppercase; background: var(--un-gold); color: var(--un-blue-ink); padding: 5px 10px; font-weight: 700; }
+  .news-date { font-size: 11.5px; color: rgba(255,255,255,.85); }
+  .news-body { padding: 22px 22px 26px; flex: 1; display: flex; flex-direction: column; }
+  .news.featured .news-body { padding: 28px 28px 30px; }
+  .news h4 { font-family: var(--serif); font-weight: 500; font-size: 19px; line-height: 1.3; color: #fff; margin: 0 0 10px; text-wrap: balance; }
+  .news.featured h4 { font-size: 28px; line-height: 1.2; }
+  .news p { margin: 0; font-size: 14px; line-height: 1.55; color: rgba(255,255,255,.7); }
+  .news-foot { margin-top: auto; padding-top: 18px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: rgba(255,255,255,.55); }
+  .news-foot .read { color: var(--un-gold); font-weight: 600; letter-spacing: .12em; text-transform: uppercase; font-size: 11px; }
+
+  /* Endorsements */
+  #endorsements { background: var(--paper-warm); }
+  .end-grid { margin-top: 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .end-card {
+    background: #fff;
+    border: 1px solid var(--rule);
+    padding: 28px 30px 26px;
+    display: flex; flex-direction: column;
+  }
+  .end-card .region {
+    font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--un-gold-deep); font-weight: 600;
+  }
+  .end-card blockquote {
+    font-family: var(--serif);
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--un-blue-ink);
+    margin: 14px 0 22px;
+    text-wrap: pretty;
+    flex: 1;
+  }
+  .end-card blockquote::before { content: '“'; font-size: 36px; color: var(--un-gold); line-height: 0; vertical-align: -10px; margin-right: 4px; }
+  .end-attr { display: flex; align-items: center; gap: 14px; padding-top: 16px; border-top: 1px solid var(--rule); }
+  .end-flag {
+    width: 44px; height: 30px;
+    border: 1px solid var(--rule);
+    flex: none;
+  }
+  .end-name { font-weight: 600; color: var(--un-blue-ink); font-size: 14px; }
+  .end-role { font-size: 12.5px; color: var(--ink-soft); margin-top: 2px; }
+
+  .endorsements-counter {
+    grid-column: 1 / -1;
+    background: var(--un-blue-ink);
+    color: #fff;
+    padding: 36px 40px;
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border: 1px solid var(--un-blue-ink);
+  }
+  .endorsements-counter .stat { padding: 0 32px 0 0; border-right: 1px solid rgba(255,255,255,.18); }
+  .endorsements-counter .stat:nth-child(odd) { padding-left: 0; }
+  .endorsements-counter .stat:last-child { border-right: 0; padding-right: 0; }
+  .endorsements-counter .num { font-family: var(--serif); font-size: 48px; line-height: 1; color: var(--un-gold); font-weight: 500; }
+  .endorsements-counter .lbl { margin-top: 10px; font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: rgba(255,255,255,.7); font-weight: 600; }
+  .endorsements-counter .desc { margin-top: 6px; font-size: 12.5px; color: rgba(255,255,255,.55); line-height: 1.5; }
+
+  /* Flag wall */
+  .flag-strip { grid-column: 1 / -1; margin-top: 4px; background: #fff; border: 1px solid var(--rule); padding: 28px 32px; }
+  .flag-strip-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
+  .flag-strip-head h4 { font-family: var(--serif); font-weight: 500; font-size: 18px; color: var(--un-blue-ink); margin: 0; }
+  .flag-strip-head .nav-arrows { display: flex; gap: 4px; }
+  .flag-strip-head .nav-arrows button { width: 36px; height: 36px; border: 1px solid var(--rule); color: var(--ink-soft); transition: all .15s; }
+  .flag-strip-head .nav-arrows button:hover { background: var(--un-blue-ink); color: #fff; border-color: var(--un-blue-ink); }
+  .flags { display: grid; grid-template-columns: repeat(8, 1fr); gap: 12px; }
+  .flag { aspect-ratio: 3 / 2; border: 1px solid var(--rule); position: relative; overflow: hidden; cursor: pointer; transition: transform .15s; }
+  .flag:hover { transform: scale(1.06); z-index: 2; box-shadow: var(--shadow-soft); }
+  .flag .name { position: absolute; left: 0; right: 0; bottom: 0; background: rgba(11,37,69,.85); color: #fff; font-size: 9.5px; text-align: center; padding: 3px 2px; letter-spacing: .04em; text-transform: uppercase; opacity: 0; transition: opacity .15s; }
+  .flag:hover .name { opacity: 1; }
+
+  /* CTA */
+  .cta-banner { position: relative; padding: 100px 28px; background: radial-gradient(1000px 500px at 80% 50%, rgba(245,197,24,.18), transparent 60%), linear-gradient(105deg, #0B2545 0%, #1F4E8C 60%, #009EDB 130%); color: #fff; overflow: hidden; isolation: isolate; }
+  .cta-banner::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(transparent 0%, transparent calc(100% - 1px), rgba(255,255,255,.04) 100%); background-size: 100% 38px; opacity: .6; }
+  .cta-banner .container { max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1.4fr 1fr; gap: 60px; align-items: center; position: relative; z-index: 1; }
+  .cta-banner h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(36px, 4.4vw, 60px); line-height: 1.05; letter-spacing: -.012em; margin: 18px 0 16px; text-wrap: balance; }
+  .cta-banner h2 .em { font-style: italic; color: var(--un-gold); }
+  .cta-banner p { font-size: 18px; color: rgba(255,255,255,.78); max-width: 50ch; margin: 0 0 32px; }
+  .cta-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+  .cta-side { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.18); padding: 28px 30px; }
+  .cta-side .h { font-size: 11.5px; letter-spacing: .24em; text-transform: uppercase; color: var(--un-gold); font-weight: 600; margin-bottom: 18px; }
+  .cta-side ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+  .cta-side li { display: flex; gap: 14px; align-items: flex-start; font-size: 14px; color: rgba(255,255,255,.85); line-height: 1.5; }
+  .cta-side li .check { width: 18px; height: 18px; flex: none; margin-top: 2px; color: var(--un-gold); }
+
+  /* Footer */
+  footer { background: #06182F; color: rgba(255,255,255,.72); padding: 80px 28px 0; font-size: 14px; }
+  footer .container { max-width: var(--maxw); margin: 0 auto; }
+  .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 60px; border-bottom: 1px solid rgba(255,255,255,.1); }
+  .foot-brand .emblem-mini { width: 56px; height: 56px; margin-bottom: 18px; color: var(--un-gold); }
+  .foot-brand h4 { font-family: var(--serif); font-weight: 500; color: #fff; font-size: 22px; margin: 0 0 4px; }
+  .foot-brand .session { font-size: 11px; letter-spacing: .2em; text-transform: uppercase; color: var(--un-gold); margin-bottom: 16px; }
+  .foot-brand p { margin: 0 0 22px; line-height: 1.55; max-width: 36ch; }
+  .socials { display: flex; gap: 10px; }
+  .socials a { width: 38px; height: 38px; border: 1px solid rgba(255,255,255,.18); display: inline-flex; align-items: center; justify-content: center; color: rgba(255,255,255,.7); transition: all .15s; }
+  .socials a:hover { background: var(--un-gold); border-color: var(--un-gold); color: var(--un-blue-ink); }
+  .socials svg { width: 16px; height: 16px; }
+  .foot-col h5 { font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--un-gold); font-weight: 600; margin: 0 0 18px; }
+  .foot-col ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 11px; }
+  .foot-col a { font-size: 14px; transition: color .15s; }
+  .foot-col a:hover { color: #fff; }
+  .foot-bottom { padding: 26px 0 28px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; font-size: 12.5px; color: rgba(255,255,255,.55); }
+  .foot-bottom .legal { display: flex; gap: 22px; }
+  .disclaimer { font-style: italic; max-width: 60ch; }
+
+  @media (max-width: 980px) {
+    .hero .inner { grid-template-columns: 1fr; gap: 40px; }
+    .about-grid { grid-template-columns: 1fr; gap: 40px; }
+    .pillars-grid { grid-template-columns: 1fr 1fr; }
+    .pillar:nth-child(3n) { border-right: 1px solid var(--rule); }
+    .pillar:nth-child(2n) { border-right: 0; }
+    .pillar:nth-last-child(-n+3) { border-bottom: 1px solid var(--rule); }
+    .pillar:nth-last-child(-n+2) { border-bottom: 0; }
+    .events-grid, .news-grid, .end-grid { grid-template-columns: 1fr; }
+    .endorsements-counter { grid-template-columns: 1fr 1fr; gap: 22px; }
+    .endorsements-counter .stat { border-right: 0; padding: 0; }
+    .cta-banner .container, .pillars-head { grid-template-columns: 1fr; }
+    .foot-grid { grid-template-columns: 1fr 1fr; }
+    .nav .links { display: none; }
+    .flags { grid-template-columns: repeat(4, 1fr); }
+    .bio-stats { grid-template-columns: 1fr; }
+    .bio-stat { border-right: 0; border-bottom: 1px solid var(--rule); }
+    .bio-stat:last-child { border-bottom: 0; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Top utility strip -->
+<div class="topstrip">
+  <div class="inner">
+    <div class="org"><span class="dot"></span><span>Candidacy of the People's Republic of Bangladesh</span></div>
+    <div class="links">
+      <a href="#vision">Vision Statement</a><a href="#about">Biography</a><a href="#contact">Press &amp; Media</a>
+    </div>
+    <div class="lang">
+      <span class="active">EN</span><span>FR</span><span>ES</span><span>AR</span><span>RU</span><span>ZH</span>
+    </div>
+  </div>
+</div>
+
+<!-- Nav -->
+<nav class="nav" id="topnav">
+  <div class="inner">
+    <a href="#home" class="brand" aria-label="Dr. Khalilur Rahman — UNGA 81 candidacy">
+      <svg class="emblem-mini" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+        <circle cx="50" cy="50" r="46" fill="#1F4E8C"></circle>
+        <g stroke="#FFFFFF" stroke-width="1" fill="none">
+          <circle cx="50" cy="50" r="32"></circle>
+          <ellipse cx="50" cy="50" rx="14" ry="32"></ellipse>
+          <ellipse cx="50" cy="50" rx="28" ry="32"></ellipse>
+          <line x1="18" y1="50" x2="82" y2="50"></line>
+          <line x1="22" y1="34" x2="78" y2="34"></line>
+          <line x1="22" y1="66" x2="78" y2="66"></line>
+          <line x1="50" y1="18" x2="50" y2="82"></line>
+        </g>
+        <path d="M50 88 Q24 80 18 56 Q14 40 22 26" stroke="#F5C518" stroke-width="2" fill="none" stroke-linecap="round"></path>
+        <path d="M50 88 Q76 80 82 56 Q86 40 78 26" stroke="#F5C518" stroke-width="2" fill="none" stroke-linecap="round"></path>
+      </svg>
+      <div class="brand-text">
+        <div class="b1">Dr. Khalilur Rahman</div>
+        <div class="b2">Candidate · PGA · UNGA 81</div>
+      </div>
+    </a>
+    <div class="links">
+      <a href="#home" class="active" data-link>Home</a>
+      <a href="#about" data-link>About</a>
+      <a href="#vision" data-link>Vision</a>
+      <a href="#events" data-link>Key Dates</a>
+      <a href="#endorsements" data-link>Endorsements</a>
+      <a href="#media" data-link>Media</a>
+      <a href="#contact" data-link>Contact</a>
+    </div>
+    <a href="#vision" class="cta">Read the Vision <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero" id="home">
+  <div class="inner">
+    <div class="hero-left">
+      <div class="eyebrow">Candidacy · 81<sup style="font-size:9px; letter-spacing:0;">st</sup> Session of the UN General Assembly</div>
+      <h1 class="candidate-name">
+        <span class="first">Dr. Khalilur</span>
+        Rahman
+      </h1>
+      <div class="candidate-tag">
+        <strong>Candidate from the Asia-Pacific Group</strong> &nbsp;·&nbsp; for President of the United Nations General Assembly &nbsp;·&nbsp; 2026—2027
+      </div>
+      <p class="lede">
+        A career multilateralist with over thirty years inside the United Nations system, presented by the People's Republic of Bangladesh — to lead the General Assembly through a moment of profound consequence: the SDG Summit 2027, the UN80 reform initiative, and the implementation of the Pact for the Future.
+      </p>
+      <div class="hero-buttons">
+        <a href="#vision" class="btn-primary">Read the Six-Pillar Vision <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></a>
+        <a href="#about" class="btn-ghost">About the Candidate</a>
+      </div>
+      <div class="meta-row">
+        <div class="meta-item"><div class="k">Endorsing State</div><div class="v">People's Republic of Bangladesh</div></div>
+        <div class="meta-item"><div class="k">Regional Group</div><div class="v">Asia &amp; the Pacific</div></div>
+        <div class="meta-item"><div class="k">Election</div><div class="v">June 2026 · UN HQ, New York</div></div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="portrait-card">
+        <div class="portrait" role="img" aria-label="Portrait of Dr. Khalilur Rahman">
+          <div class="portrait-flag" aria-label="Flag of Bangladesh"></div>
+          <div class="portrait-overlay">
+            <span class="badge">Candidate</span>
+            <div class="ptitle">Dr. Khalilur Rahman</div>
+            <div class="psub">High Representative on Rohingya &amp; Priority Issues · Bangladesh</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="countdown-card">
+        <div class="countdown-label">
+          <span>Countdown · Election of the PGA</span>
+          <span class="live"><span class="pulse"></span>Campaign live</span>
+        </div>
+        <div class="countdown" id="countdown">
+          <div class="cd-cell"><div class="cd-num" id="cd-d">--</div><div class="cd-lbl">Days</div></div>
+          <div class="cd-cell"><div class="cd-num" id="cd-h">--</div><div class="cd-lbl">Hours</div></div>
+          <div class="cd-cell"><div class="cd-num" id="cd-m">--</div><div class="cd-lbl">Minutes</div></div>
+          <div class="cd-cell"><div class="cd-num" id="cd-s">--</div><div class="cd-lbl">Seconds</div></div>
+        </div>
+        <div class="countdown-foot">
+          <span>To opening of UNGA 81</span>
+          <strong>Tue · 9 Sep 2026 · 15:00 EDT</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-ribbon">
+    <div class="inner">
+      <span class="label">Vision in focus</span>
+      <div class="ticker" aria-hidden="true">
+        <span>Silence the Guns, Amplify the Voices</span>
+        <span>No One Left Behind, No Country Left Out</span>
+        <span>Our Planet, Our Pact</span>
+        <span>Rights and Protection — Freedom from Fear and Want</span>
+        <span>Innovation with Inclusion</span>
+        <span>We the Peoples — Reimagined</span>
+        <span>Silence the Guns, Amplify the Voices</span>
+        <span>No One Left Behind, No Country Left Out</span>
+        <span>Our Planet, Our Pact</span>
+        <span>Rights and Protection — Freedom from Fear and Want</span>
+        <span>Innovation with Inclusion</span>
+        <span>We the Peoples — Reimagined</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- About -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-eyebrow">About the Candidate</div>
+    <h2 class="section-title">Three decades inside the <span class="em">multilateral system.</span></h2>
+    <p class="section-sub">Dr. Khalilur Rahman brings a rare combination of diplomatic experience, secretariat leadership, and ministerial responsibility — shaped by service to one of the largest troop-contributing nations to UN peacekeeping and a steadfast voice for the Global South.</p>
+
+    <div class="about-grid">
+      <div class="about-copy">
+        <p class="intro">
+          A candidate from the Asia-Pacific Group, Dr. Rahman has actively participated in sixteen sessions of the General Assembly — engaging directly in its negotiations, high-level meetings, and follow-up processes — and has served in ministerial-level positions in the Government of Bangladesh since 2024.
+        </p>
+        <p>
+          His career spans both sides of the multilateral table: as a representative of Bangladesh to the General Assembly, and as a senior official inside the United Nations Secretariat in New York and at UNCTAD in Geneva, where he led the Technology Division and chaired the Technology Bank High-Level Panel.
+        </p>
+        <p>
+          Throughout, he has worked extensively on the development priorities of Least Developed Countries, Land-Locked Developing Countries, and Small Island Developing States — drawing on Bangladesh's institutional memory of speaking for and coordinating LDC positions across multiple UN forums for more than five decades.
+        </p>
+
+        <div class="bio-stats">
+          <div class="bio-stat"><div class="num">30+</div><div class="lbl">Years in the UN System</div></div>
+          <div class="bio-stat"><div class="num">16</div><div class="lbl">UNGA Sessions Engaged</div></div>
+          <div class="bio-stat"><div class="num">200,000+</div><div class="lbl">BD Peacekeepers Deployed</div></div>
+        </div>
+
+        <div class="career-list">
+          <h3>Selected career milestones</h3>
+          <div class="career-row">
+            <div class="yr">2024 — present</div>
+            <div class="role"><strong>High Representative of the Prime Minister of Bangladesh</strong><span>On Rohingya &amp; Priority Issues — ministerial rank.</span></div>
+          </div>
+          <div class="career-row">
+            <div class="yr">UN Secretariat</div>
+            <div class="role"><strong>Senior official, UN Headquarters, New York</strong><span>Substantive support to General Assembly and ECOSOC processes.</span></div>
+          </div>
+          <div class="career-row">
+            <div class="yr">UNCTAD · Geneva</div>
+            <div class="role"><strong>Director, Division on Technology &amp; Logistics</strong><span>Led work on STI for development; chaired the Technology Bank High-Level Panel.</span></div>
+          </div>
+          <div class="career-row">
+            <div class="yr">Bangladesh Mission</div>
+            <div class="role"><strong>Representative to the General Assembly</strong><span>Negotiator across LDC, financing-for-development &amp; SDG processes.</span></div>
+          </div>
+          <div class="career-row">
+            <div class="yr">Education</div>
+            <div class="role"><strong>Doctoral training in international economics &amp; trade</strong><span>Authored on technology transfer, LDC graduation, and South-South cooperation.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="quote-card">
+        <div class="quote-card-head">
+          <span class="badge">Vision Statement · Prologue</span>
+          <span class="seal">UN</span>
+        </div>
+        <div class="quote-card-body">
+          <span class="mark">“</span>
+          <p>The 81st Session of the UN General Assembly will open at a historic crossroads. As a candidate from the Global South, I carry the aspirations of developing countries — but as President, I will be everyone's President: acting without fear or favour and serving the interests of the entire membership.</p>
+          <div class="attr">
+            <strong>Dr. Khalilur Rahman</strong>
+            Vision Statement for the Presidency of the 81st Session of the UN General Assembly
+          </div>
+        </div>
+        <div class="quote-card-foot">
+          <span class="label">Available in</span>
+          <div class="langs">
+            <span>EN</span><span>FR</span><span>ES</span><span>AR</span><span>RU</span><span>ZH</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- Six pillars -->
+<section id="vision" class="section">
+  <div class="container">
+    <div class="pillars-head">
+      <div>
+        <div class="section-eyebrow">The Vision · Six Pillars</div>
+        <h2 class="section-title">An <span class="em">interlocking</span> agenda for the 81st session.</h2>
+      </div>
+      <p>The vision is organized around six interlocking pillars — anchored in the UN Charter, informed by Bangladesh's long record of service to multilateralism, and oriented toward the milestone deliberations of the 81st session.</p>
+    </div>
+
+    <div class="pillars-grid">
+      <!-- I -->
+      <article class="pillar">
+        <div class="pillar-roman">I</div>
+        <svg class="pillar-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6 L48 14 V32 C48 44 40 52 32 56 C24 52 16 44 16 32 V14 Z"></path><path d="M24 32 L30 38 L42 26"></path></svg>
+        <div class="pillar-sub">Peace, Security &amp; Justice</div>
+        <h3>Silence the Guns, Amplify the Voices</h3>
+        <p>Prevention and political solutions, protection of civilians, sustaining peace, the Women, Peace &amp; Security agenda, and confronting transnational organized crime — drawing on Bangladesh's legacy as a lead troop-contributing country.</p>
+        <div class="pillar-link">Read pillar I <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></div>
+      </article>
+
+      <!-- II -->
+      <article class="pillar">
+        <div class="pillar-roman">II</div>
+        <svg class="pillar-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="22"></circle><path d="M32 10 C20 22 20 42 32 54"></path><path d="M32 10 C44 22 44 42 32 54"></path><path d="M10 32 H54"></path></svg>
+        <div class="pillar-sub">Sustainable Development</div>
+        <h3>No One Left Behind, No Country Left Out</h3>
+        <p>The course-correction toward SDG Summit 2027 — focused on LDCs, LLDCs and SIDS, financing reform from FfD4 onwards, and a stronger interface between the 2030 Agenda and the African Union's Agenda 2063.</p>
+        <div class="pillar-link">Read pillar II <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></div>
+      </article>
+
+      <!-- III -->
+      <article class="pillar">
+        <div class="pillar-roman">III</div>
+        <svg class="pillar-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 38 C16 38 12 34 12 28 C12 22 16 18 22 18 C24 12 30 8 36 8 C44 8 50 14 50 22 C54 22 58 26 58 32 C58 38 54 42 48 42 H22 Z"></path><path d="M24 50 L20 58 M34 50 L30 58 M44 50 L40 58"></path></svg>
+        <div class="pillar-sub">Climate &amp; Environment</div>
+        <h3>Our Planet, Our Pact</h3>
+        <p>Delivering on Paris and COP 30, fully operationalizing the Loss &amp; Damage Fund, universal early-warning systems, and bringing climate mobility into the High-Level Meeting on Sea-Level Rise.</p>
+        <div class="pillar-link">Read pillar III <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></div>
+      </article>
+
+      <!-- IV -->
+      <article class="pillar">
+        <div class="pillar-roman">IV</div>
+        <svg class="pillar-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="20" r="8"></circle><path d="M14 56 C14 44 22 36 32 36 C42 36 50 44 50 56"></path><path d="M22 48 H42"></path></svg>
+        <div class="pillar-sub">Human Rights &amp; Humanitarian</div>
+        <h3>Rights &amp; Protection — Freedom from Fear and Want</h3>
+        <p>Strengthening the human rights architecture; sustaining humanitarian space and access; protecting refugees and migrants — informed by Bangladesh's stewardship of 1.3 million Rohingya. Marking 25 years of Durban and 40 years of the Right to Development.</p>
+        <div class="pillar-link">Read pillar IV <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></div>
+      </article>
+
+      <!-- V -->
+      <article class="pillar">
+        <div class="pillar-roman">V</div>
+        <svg class="pillar-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="10" y="14" width="44" height="30" rx="2"></rect><path d="M22 50 H42 M28 44 V50 M36 44 V50"></path><circle cx="32" cy="29" r="6"></circle><path d="M32 23 V18 M32 35 V40 M26 29 H21 M38 29 H43"></path></svg>
+        <div class="pillar-sub">Digital, AI &amp; Next Generation</div>
+        <h3>Innovation with Inclusion</h3>
+        <p>Inclusive implementation of the Global Digital Compact, an Assembly-anchored Global Dialogue on AI Governance, bridging the digital divide, and decent youth employment leveraging emerging technologies.</p>
+        <div class="pillar-link">Read pillar V <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></div>
+      </article>
+
+      <!-- VI -->
+      <article class="pillar">
+        <div class="pillar-roman">VI</div>
+        <svg class="pillar-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="32" r="22"></circle><circle cx="32" cy="32" r="12"></circle><path d="M14 22 L22 22 M42 22 L50 22 M14 42 L22 42 M42 42 L50 42"></path></svg>
+        <div class="pillar-sub">Multilateralism &amp; UN80</div>
+        <h3>We the Peoples — Reimagined</h3>
+        <p>Making the General Assembly the engine of member-driven reform under the UN80 Initiative — with transparency, impartiality, gender parity, equitable geographic distribution, and tighter coordination with the Security Council and ECOSOC.</p>
+        <div class="pillar-link">Read pillar VI <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Events -->
+<section id="events" class="section">
+  <div class="container">
+    <div class="events-head">
+      <div>
+        <div class="section-eyebrow">Key Dates · Road to UNGA 81</div>
+        <h2 class="section-title" style="margin-bottom:0;">From candidacy to <span class="em">the gavel.</span></h2>
+      </div>
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="all">All</button>
+        <button class="tab" data-tab="campaign">Campaign</button>
+        <button class="tab" data-tab="session">81st Session</button>
+        <button class="tab" data-tab="milestone">Milestone Events</button>
+      </div>
+    </div>
+
+    <div class="events-grid" id="events-grid">
+      <article class="event" data-cat="campaign">
+        <div class="event-date"><div class="d">26</div><div class="my"><strong>FEB</strong>2026 · Dhaka</div></div>
+        <div class="event-body">
+          <span class="event-tag">Candidacy Launch</span>
+          <h4>Bangladesh announces the candidacy of Dr. Khalilur Rahman</h4>
+          <p class="event-desc">Formal launch of the candidacy for the Presidency of the 81st Session, with a published Vision Statement built around six interlocking pillars.</p>
+          <div class="event-meta"><span class="loc"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-7-8-13a8 8 0 0116 0c0 6-8 13-8 13z"></path><circle cx="12" cy="9" r="3"></circle></svg>Ministry of Foreign Affairs</span><span>Asia-Pacific Group</span></div>
+        </div>
+      </article>
+
+      <article class="event" data-cat="campaign">
+        <div class="event-date"><div class="d">JUN</div><div class="my"><strong>2026</strong>UN HQ · NY</div></div>
+        <div class="event-body">
+          <span class="event-tag">Election</span>
+          <h4>Election of the President of the 81<sup>st</sup> Session</h4>
+          <p class="event-desc">Plenary election by all 193 Member States, in accordance with the principle of equitable geographic rotation. The candidacy is presented by the Asia-Pacific Group.</p>
+          <div class="event-meta"><span class="loc"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-7-8-13a8 8 0 0116 0c0 6-8 13-8 13z"></path><circle cx="12" cy="9" r="3"></circle></svg>General Assembly Hall</span><span>By acclamation or vote</span></div>
+        </div>
+      </article>
+
+      <article class="event" data-cat="session">
+        <div class="event-date"><div class="d">09</div><div class="my"><strong>SEP</strong>2026 · 15:00 EDT</div></div>
+        <div class="event-body">
+          <span class="event-tag">Opening Plenary</span>
+          <h4>Opening of the 81<sup>st</sup> Session</h4>
+          <p class="event-desc">Inauguration of the new session, the President's opening address, election of Vice-Presidents, and adoption of the agenda by the plenary.</p>
+          <div class="event-meta"><span class="loc"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-7-8-13a8 8 0 0116 0c0 6-8 13-8 13z"></path><circle cx="12" cy="9" r="3"></circle></svg>GA Hall, NY</span><span>All Member States</span></div>
+        </div>
+      </article>
+
+      <article class="event" data-cat="session">
+        <div class="event-date"><div class="d">22</div><div class="my"><strong>SEP</strong>2026 · 09:00 EDT</div></div>
+        <div class="event-body">
+          <span class="event-tag">High-Level Week</span>
+          <h4>General Debate of the 81<sup>st</sup> Session</h4>
+          <p class="event-desc">Heads of State and Government deliver national statements; the President convenes side dialogues on each of the six pillars across the week.</p>
+          <div class="event-meta"><span class="loc"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-7-8-13a8 8 0 0116 0c0 6-8 13-8 13z"></path><circle cx="12" cy="9" r="3"></circle></svg>GA Hall, NY</span><span>22 — 30 Sep 2026</span></div>
+        </div>
+      </article>
+
+      <article class="event" data-cat="milestone">
+        <div class="event-date"><div class="d">DEC</div><div class="my"><strong>2026</strong>UN Water</div></div>
+        <div class="event-body">
+          <span class="event-tag">Milestone</span>
+          <h4>UN Water Conference 2026 — SDG 6 Spotlight</h4>
+          <p class="event-desc">In the lead-up and follow-up, the President will keep clean water and sanitation under SDG 6 in the political spotlight, alongside science-based ocean action.</p>
+          <div class="event-meta"><span class="loc"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-7-8-13a8 8 0 0116 0c0 6-8 13-8 13z"></path><circle cx="12" cy="9" r="3"></circle></svg>To be confirmed</span><span>Pillar II · III</span></div>
+        </div>
+      </article>
+
+      <article class="event" data-cat="milestone">
+        <div class="event-date"><div class="d">2027</div><div class="my"><strong>SDG</strong>SUMMIT</div></div>
+        <div class="event-body">
+          <span class="event-tag">Milestone</span>
+          <h4>SDG Summit 2027 &amp; the Global Sustainable Development Report</h4>
+          <p class="event-desc">The defining moment of the session: an evidence-based foundation for the final push toward 2030, with focused attention on countries in special situations.</p>
+          <div class="event-meta"><span class="loc"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s-8-7-8-13a8 8 0 0116 0c0 6-8 13-8 13z"></path><circle cx="12" cy="9" r="3"></circle></svg>UN Headquarters</span><span>Pillar II</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Media -->
+<section id="media" class="section">
+  <div class="container">
+    <div class="section-eyebrow">News &amp; Statements</div>
+    <h2 class="section-title">From the campaign and <span class="em">the multilateral floor.</span></h2>
+    <p class="section-sub">Press releases, speeches, op-eds, and dispatches from the candidate's engagements with capitals and Permanent Missions across the membership.</p>
+
+    <div class="news-grid">
+      <article class="news featured">
+        <div class="news-img news-img-1"><div class="news-meta-strip"><span class="news-cat">Vision</span><span class="news-date">26 Feb 2026</span></div></div>
+        <div class="news-body">
+          <h4>"Restoring trust, managing transformation": Dr. Rahman releases full Vision Statement for the Presidency of UNGA 81</h4>
+          <p>The nine-page Vision Statement organizes the candidacy around six interlocking pillars — from peace and SDGs to AI governance and UN80 reform — anchored in the Charter and oriented to a member-driven General Assembly.</p>
+          <div class="news-foot"><span>Press Office · Dhaka / New York</span><span class="read">Read →</span></div>
+        </div>
+      </article>
+
+      <article class="news">
+        <div class="news-img news-img-2"><div class="news-meta-strip"><span class="news-cat" style="background:#fff;color:var(--un-blue-ink);">Speech</span><span class="news-date">14 Apr 2026</span></div></div>
+        <div class="news-body">
+          <h4>"The General Assembly must be the engine of member-driven reform"</h4>
+          <p>Address to the Asia-Pacific Group on the UN80 Initiative and Shifting Paradigms: United to Deliver — pillar VI.</p>
+          <div class="news-foot"><span>Asia-Pacific Group</span><span class="read">Read →</span></div>
+        </div>
+      </article>
+
+      <article class="news">
+        <div class="news-img news-img-3"><div class="news-meta-strip"><span class="news-cat">Op-ed</span><span class="news-date">02 May 2026</span></div></div>
+        <div class="news-body">
+          <h4>On climate mobility, sea-level rise, and the High-Level Meeting ahead</h4>
+          <p>An op-ed framing pillar III: integrated climate resilience, Loss &amp; Damage operationalization, and protections for people on the move.</p>
+          <div class="news-foot"><span>UN Affairs Press Pool</span><span class="read">Read →</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Endorsements -->
+<section id="endorsements" class="section">
+  <div class="container">
+    <div class="section-eyebrow">Support &amp; Endorsements</div>
+    <h2 class="section-title">A candidacy <span class="em">across regions.</span></h2>
+    <p class="section-sub">Indicative voices of support from across the membership. The candidacy is presented by the Asia-Pacific Group and welcomed by partners across regional and interest-based groupings.</p>
+
+    <div class="end-grid">
+      <article class="end-card">
+        <div class="region">Asia-Pacific Group</div>
+        <blockquote>Dr. Rahman's combination of negotiation experience and secretariat leadership makes him uniquely placed to chair this Assembly through the UN80 reform agenda.</blockquote>
+        <div class="end-attr">
+          <div class="end-flag" style="background:linear-gradient(180deg,#FF9933 0 33.33%,#fff 33.33% 66.66%,#138808 66.66% 100%);"></div>
+          <div><div class="end-name">Permanent Mission · India</div><div class="end-role">Indicative statement of support</div></div>
+        </div>
+      </article>
+
+      <article class="end-card">
+        <div class="region">African Group</div>
+        <blockquote>His unwavering focus on LDCs, LLDCs, SIDS and Agenda 2063 — and on financing for development beyond Sevilla — speaks to the priorities of our continent.</blockquote>
+        <div class="end-attr">
+          <div class="end-flag" style="background:linear-gradient(90deg,#078930 0 33.33%,#FCDD09 33.33% 66.66%,#DA121A 66.66% 100%);"></div>
+          <div><div class="end-name">Permanent Mission · Ethiopia</div><div class="end-role">Indicative statement of support</div></div>
+        </div>
+      </article>
+
+      <article class="end-card">
+        <div class="region">SIDS · AOSIS</div>
+        <blockquote>By centering climate mobility, early warning, and Loss &amp; Damage, the candidate places the existential threat of sea-level rise at the heart of the Assembly's work.</blockquote>
+        <div class="end-attr">
+          <div class="end-flag" style="background:linear-gradient(180deg,#012169 0 60%,#FCD116 60% 100%);"></div>
+          <div><div class="end-name">Alliance of Small Island States</div><div class="end-role">Welcoming statement</div></div>
+        </div>
+      </article>
+
+      <article class="end-card">
+        <div class="region">Group of Friends · Mediation</div>
+        <blockquote>Bangladesh's record of more than 200,000 peacekeepers, and the candidate's commitment to political solutions, point to a Presidency that takes prevention seriously.</blockquote>
+        <div class="end-attr">
+          <div class="end-flag" style="background:linear-gradient(180deg,#006AA7 0 50%,#FECC00 50% 100%);"></div>
+          <div><div class="end-name">Permanent Mission · Sweden</div><div class="end-role">Indicative statement of support</div></div>
+        </div>
+      </article>
+
+      <div class="endorsements-counter">
+        <div class="stat">
+          <div class="num">54</div>
+          <div class="lbl">Capitals Engaged</div>
+          <div class="desc">Bilateral consultations across all five regional groups since launch.</div>
+        </div>
+        <div class="stat">
+          <div class="num">5</div>
+          <div class="lbl">Regional Groups</div>
+          <div class="desc">Briefings delivered across Asia-Pacific, Africa, GRULAC, EEG and WEOG.</div>
+        </div>
+        <div class="stat">
+          <div class="num">12</div>
+          <div class="lbl">Interest-Based Groupings</div>
+          <div class="desc">Including LDCs, LLDCs, SIDS, G77, AOSIS, OIC, ASEAN and the C-7.</div>
+        </div>
+        <div class="stat">
+          <div class="num">6</div>
+          <div class="lbl">Vision Pillars</div>
+          <div class="desc">Each pillar accompanied by a thematic briefing for Permanent Missions.</div>
+        </div>
+      </div>
+
+      <div class="flag-strip">
+        <div class="flag-strip-head">
+          <h4>Member States consulted to date</h4>
+          <div class="nav-arrows">
+            <button aria-label="Previous"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg></button>
+            <button aria-label="Next"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></button>
+          </div>
+        </div>
+        <div class="flags" id="flags"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-banner">
+  <div class="container">
+    <div>
+      <div class="eyebrow">Engage with the candidacy</div>
+      <h2>Join the conversation on the <span class="em">81st Session.</span></h2>
+      <p>Permanent Missions, civil society partners, academia, media and the wider UN community are invited to engage with the candidate and his team in the months ahead — across all six pillars of the vision.</p>
+      <div class="cta-actions">
+        <a href="#contact" class="btn-primary">Request a Briefing <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"></path></svg></a>
+        <a href="#vision" class="btn-ghost">Read the Vision Statement</a>
+      </div>
+    </div>
+    <div class="cta-side">
+      <div class="h">Ways to engage</div>
+      <ul>
+        <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"></path></svg>Bilateral consultations with Permanent Missions on any of the six pillars.</li>
+        <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"></path></svg>Thematic briefings for regional and interest-based groupings.</li>
+        <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"></path></svg>Civil-society and youth dialogues on the Pact for the Future.</li>
+        <li><svg class="check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"></path></svg>Press accreditation requests and interview enquiries via the Press Office.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="contact">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <svg class="emblem-mini" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+          <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+          <g stroke="currentColor" stroke-width="1" fill="none" opacity=".75">
+            <ellipse cx="50" cy="50" rx="14" ry="32"></ellipse>
+            <ellipse cx="50" cy="50" rx="28" ry="32"></ellipse>
+            <line x1="18" y1="50" x2="82" y2="50"></line>
+            <line x1="50" y1="18" x2="50" y2="82"></line>
+          </g>
+          <path d="M50 88 Q24 80 18 56 Q14 40 22 26" stroke="currentColor" stroke-width="2" fill="none"></path>
+          <path d="M50 88 Q76 80 82 56 Q86 40 78 26" stroke="currentColor" stroke-width="2" fill="none"></path>
+        </svg>
+        <h4>Dr. Khalilur Rahman</h4>
+        <div class="session">Candidate · PGA · UNGA 81</div>
+        <p>Candidacy of the People's Republic of Bangladesh for the Presidency of the 81<sup>st</sup> Session of the United Nations General Assembly, presented by the Asia-Pacific Group.</p>
+        <div class="socials" aria-label="Social channels">
+          <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 3H21l-6.52 7.45L22 21h-6.81l-4.66-5.79L5.2 21H2.44l6.97-7.97L2 3h6.96l4.21 5.32L18.244 3zm-1.19 16.2h1.49L7.05 4.7H5.45l11.6 14.5z"></path></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zM8 17v-7H5.5v7H8zM6.75 8.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM18.5 17v-3.85c0-2.05-1.1-3-2.55-3-1.18 0-1.7.65-2 1.1V10H11.5c.03.7 0 7 0 7H14v-3.9c0-.22.02-.44.08-.6.18-.45.59-.91 1.27-.91.9 0 1.26.68 1.26 1.68V17h1.89z"></path></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 7.2a3 3 0 00-2.1-2.1C19.6 4.6 12 4.6 12 4.6s-7.6 0-9.4.5A3 3 0 00.5 7.2 31 31 0 000 12a31 31 0 00.5 4.8 3 3 0 002.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 002.1-2.1A31 31 0 0024 12a31 31 0 00-.5-4.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"></path></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.5-3.5h-3V8.2c0-1 .3-1.7 1.7-1.7H17V3.4c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.2H7.5v3.5H10V21h3.5z"></path></svg></a>
+        </div>
+      </div>
+
+      <div class="foot-col"><h5>The Candidacy</h5><ul><li><a href="#about">Biography</a></li><li><a href="#vision">Vision Statement</a></li><li><a href="#events">Key Dates</a></li><li><a href="#endorsements">Endorsements</a></li><li><a href="#media">News &amp; Statements</a></li></ul></div>
+      <div class="foot-col"><h5>Six Pillars</h5><ul><li><a href="#vision">I · Peace &amp; Security</a></li><li><a href="#vision">II · Sustainable Development</a></li><li><a href="#vision">III · Climate &amp; Environment</a></li><li><a href="#vision">IV · Rights &amp; Protection</a></li><li><a href="#vision">V · Innovation with Inclusion</a></li><li><a href="#vision">VI · We the Peoples</a></li></ul></div>
+      <div class="foot-col"><h5>Press &amp; Briefings</h5><ul><li><a href="#">Press Office</a></li><li><a href="#">Speeches Archive</a></li><li><a href="#">Photo Library</a></li><li><a href="#">Op-eds</a></li><li><a href="#">Bilateral Briefings</a></li></ul></div>
+      <div class="foot-col"><h5>Reference</h5><ul><li><a href="#">UN Charter</a></li><li><a href="#">2030 Agenda</a></li><li><a href="#">Pact for the Future</a></li><li><a href="#">Global Digital Compact</a></li><li><a href="#">UN80 Initiative</a></li></ul></div>
+    </div>
+
+    <div class="foot-bottom">
+      <div class="disclaimer">© 2026 Candidacy of Dr. Khalilur Rahman for the Presidency of the 81st Session of the UN General Assembly · Office of the High Representative · Government of the People's Republic of Bangladesh.</div>
+      <div class="legal"><a href="#">Privacy Notice</a><a href="#">Press Contacts</a><a href="#">Accessibility</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Countdown to UNGA 81 opening: 9 Sep 2026, 15:00 EDT (19:00 UTC)
+  (function () {
+    var target = new Date(Date.UTC(2026, 8, 9, 19, 0, 0)).getTime();
+    var d = document.getElementById('cd-d'), h = document.getElementById('cd-h'), m = document.getElementById('cd-m'), s = document.getElementById('cd-s');
+    function pad(n) { return n < 10 ? '0' + n : '' + n; }
+    function tick() {
+      var diff = Math.max(0, target - Date.now());
+      d.textContent = pad(Math.floor(diff / 86400000));
+      h.textContent = pad(Math.floor((diff % 86400000) / 3600000));
+      m.textContent = pad(Math.floor((diff % 3600000) / 60000));
+      s.textContent = pad(Math.floor((diff % 60000) / 1000));
+    }
+    tick(); setInterval(tick, 1000);
+  })();
+
+  // Sticky nav scroll state + active link
+  (function () {
+    var nav = document.getElementById('topnav');
+    var links = document.querySelectorAll('.nav .links a[data-link]');
+    var sectionIds = ['home','about','vision','events','endorsements','media','contact'];
+    var sections = sectionIds.map(function (id) { return document.getElementById(id); }).filter(Boolean);
+    function onScroll() {
+      if (window.scrollY > 8) nav.classList.add('scrolled'); else nav.classList.remove('scrolled');
+      var pos = window.scrollY + 140, current = sections[0];
+      for (var i = 0; i < sections.length; i++) { if (sections[i].offsetTop <= pos) current = sections[i]; }
+      links.forEach(function (a) { a.classList.toggle('active', a.getAttribute('href') === '#' + current.id); });
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  })();
+
+  // Tabs filter
+  (function () {
+    var tabs = document.querySelectorAll('.tab');
+    var events = document.querySelectorAll('#events-grid .event');
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () {
+        tabs.forEach(function (x) { x.classList.remove('active'); });
+        t.classList.add('active');
+        var cat = t.dataset.tab;
+        events.forEach(function (e) { e.style.display = (cat === 'all' || e.dataset.cat === cat) ? '' : 'none'; });
+      });
+    });
+  })();
+
+  // Procedural flag wall
+  (function () {
+    var states = [
+      ['Bangladesh',['#006A4E','#006A4E','#006A4E']],
+      ['India',['#FF9933','#FFFFFF','#138808']],
+      ['Indonesia',['#FF0000','#FFFFFF','#FFFFFF']],
+      ['Japan',['#FFFFFF','#BC002D','#FFFFFF']],
+      ['Pakistan',['#01411C','#FFFFFF','#01411C']],
+      ['Sri Lanka',['#8D153A','#FFB700','#005F2D']],
+      ['Maldives',['#D21034','#007E3A','#D21034']],
+      ['Bhutan',['#FFCD00','#FF4E12','#FFCD00']],
+      ['Nepal',['#DC143C','#003893','#DC143C']],
+      ['Thailand',['#A51931','#FFFFFF','#2D2A4A']],
+      ['Vietnam',['#DA251D','#DA251D','#DA251D']],
+      ['Philippines',['#0038A8','#FFFFFF','#CE1126']],
+      ['Singapore',['#EF3340','#FFFFFF','#FFFFFF']],
+      ['Malaysia',['#CC0001','#FFFFFF','#CC0001']],
+      ['Egypt',['#CE1126','#FFFFFF','#000000']],
+      ['Ethiopia',['#078930','#FCDD09','#DA121A']],
+      ['Kenya',['#000000','#FF0000','#006600']],
+      ['Nigeria',['#008751','#FFFFFF','#008751']],
+      ['South Africa',['#007A4D','#FFB81C','#000C8A']],
+      ['Brazil',['#009C3B','#FFDF00','#002776']],
+      ['Mexico',['#006847','#FFFFFF','#CE1126']],
+      ['Norway',['#EF2B2D','#FFFFFF','#002868']],
+      ['Sweden',['#005293','#FECC00','#005293']],
+      ['Switzerland',['#FF0000','#FFFFFF','#FF0000']]
+    ];
+    var grid = document.getElementById('flags');
+    states.forEach(function (s) {
+      var name = s[0], c = s[1];
+      var orient = name.length % 2 ? 'horizontal' : 'vertical';
+      var bg = (orient === 'horizontal')
+        ? 'linear-gradient(180deg,' + c[0] + ' 0 33.33%,' + c[1] + ' 33.33% 66.66%,' + c[2] + ' 66.66% 100%)'
+        : 'linear-gradient(90deg,' + c[0] + ' 0 33.33%,' + c[1] + ' 33.33% 66.66%,' + c[2] + ' 66.66% 100%)';
+      var el = document.createElement('div');
+      el.className = 'flag';
+      el.style.background = bg;
+      el.innerHTML = '<span class="name">' + name + '</span>';
+      el.title = name;
+      grid.appendChild(el);
+    });
+  })();
+</script>
+</body>
+</html>
